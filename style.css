@@ -1,7 +1,15 @@
-:root{
-    
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Share+Tech&display=swap');
+
+:root{ 
 --roxo-claro: #dabfffff;
 --roxo-fraco: #907ad6ff;
---roxo: #4f518cff;
---roxo-escuro: #2c2a4aff;
+--azul: #4f518cff;
+--azul-escuro: #2c2a4aff;
+--texto:"Share Tech", sans-serif;
+--titulo:"Archivo Black", sans-serif;
+}
+
+body{
+    background-color: var(--azul-escuro);
+    font-family: var(--texto);
 }
