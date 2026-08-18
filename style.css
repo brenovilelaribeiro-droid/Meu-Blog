@@ -1,24 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Share+Tech&display=swap');
 
 :root{ 
---roxo-claro: #dabfffff;
---roxo-fraco: #907ad6ff;
---azul: #4f518cff;
---azul-escuro: #2c2a4aff;
+--preto: #292f36ff;
+--ciano: #4ecdc4ff;
+--branco: #ffffffff;
+--rosa: #ff6b6bff;
 --texto:"Share Tech", sans-serif;
 --titulo:"Archivo Black", sans-serif;
 }
-{
+*{
     margin: 0;
     padding: 0
 }
 body{
-    background-color: var(--azul-escuro);
+    background-color: var(--ciano);
     font-family: var(--texto);
 }
 header{
-    background-color: var(--azul);
+    background-color: var(--ciano);
     text-align: center; 
     padding: 20px;
-    color: var(--roxo-claro);
+    color: var(--preto);
+}
+.capa{
+    width: 100%;
 }
